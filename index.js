@@ -11,7 +11,7 @@ const HEROKU_LINK = "";
 app.use("/", (req, res, next) => {
     console.log("Request url: " + req.url);
     fs.stat(path.join(__dirname, "dist"), (err, stats) => {
-        if(err) res.end("Error, no dist folder detected.");
+        if(err) res.status(500).end("Error, no dist folder detected.");
         else next();
     });
 });
@@ -19,7 +19,7 @@ app.use("/", (req, res, next) => {
 app.use("/", express.static(path.join(__dirname, "dist")));
 
 app.get("/**", (req, res) => {
-    res.end("Error, please try this link: \r\n" + HEROKU_LINK);
+    res.status(500).end("Error, please try this link: \r\n" + HEROKU_LINK);
 });
 
 app.listen(PORT, () => {
