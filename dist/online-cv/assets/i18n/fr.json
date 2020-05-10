@@ -1,17 +1,17 @@
 {
   "header": {
     "firstname":"Jules",
-    "lastname":"***",
+    "lastname":"Vandewiele",
     "job": "INGENIEUR LOGICIEL",
     "phonenumber":"** ** ** ** **",
-    "location":"Bourg Palette",
-    "mail":"jules.***-pro@smash.com",
-    "linkedin":"www.linkedin.com"
+    "location":"Rouen",
+    "mail":"jules.vandewiele.pro@gmail.com",
+    "linkedin":"www.linkedin.com/in/jules-vandewiele"
   },
   "content":{
     "aboutme":{
       "title":"A propos de moi",
-      "content":"Développeur fullstack, j'aime utilisé mes compétences pour simpifier et améliorer la vie professionel des entreprises, c'est pourquoi mes applications correspondront à votre besoin. Je n'ai pas peur de me lancer dans quelque chose de nouveau, l'idée est de continuer à apprendre afin de toujours chercher à me surpasser."
+      "content":"Développeur fullstack, j'aime utiliser mes compétences pour simpifier et améliorer la vie professionelle des entreprises, c'est pourquoi mes applications correspondront à vos besoins. Je n'ai pas peur de me lancer dans quelque chose de nouveau, l'idée est de continuer à apprendre afin de toujours chercher à me surpasser."
     },
     "experiences":{
       "title":"Expériences",
@@ -34,7 +34,7 @@
         "educationname":"Ecole nationale d'ingénieurs de Brest - ENIB",
         "dates":"Septembre 1013 - Décembre 2016",
         "studies":"Ingénieur généraliste option informatique",
-        "description":"applications web, intelligence artificiel, environnement 3D, stages développement d'application web et gestion électronique de document"
+        "description":"applications web, intelligence artificielle, environnement 3D, stages développement d'application web et gestion électronique de document"
       }
     }
   },
