@@ -1,0 +1,24 @@
+{
+  "name": "herokuonlinecv",
+  "version": "0.0.1",
+  "description": "Project online CV for Heroku",
+  "main": "index.js",
+  "engines": {
+    "node": "12.x.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo build",
+    "heroku-prebuild": "echo heroku-prebuild",
+    "heroku-postbuild": "echo heroku-postbuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Imbibed/mytestheroku.git"
+  },
+  "author": "JV",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
