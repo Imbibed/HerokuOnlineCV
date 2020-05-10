@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 5000
 const HEROKU_LINK = "";
 
 app.use("/", (req, res, next) => {
+    console.log("Request url: " + req.url);
     fs.stat(path.join(__dirname, "dist"), (err, stats) => {
         if(err) res.end("Error, no dist folder detected.");
         else next();
