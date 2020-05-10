@@ -1,0 +1,58 @@
+{
+  "header": {
+    "firstname":"Jules",
+    "lastname":"Vandewiele",
+    "job": "SOFTWARE ENGINEER",
+    "phonenumber":"** ** ** ** **",
+    "location":"Rouen",
+    "mail":"jules.vandewiele.pro@smash.com",
+    "linkedin":"www.linkedin.com/in/jules-vandewiele"
+  },
+  "content":{
+    "aboutme":{
+      "title":"About me",
+      "content":"Fullstack developer, I like to use my skills to simplify and improve the professional life of companies, that's why my applications will meet your needs. I am not afraid to embark on something new, the idea is to continue to learn in order to always seek to excel."
+    },
+    "experiences":{
+      "title":"Experiences",
+      "experience1":{
+        "companiename":"Freelance",
+        "dates":"February 2020 - Today",
+        "job":"Freelance software programmer",
+        "description":"listening and advising on customer needs, regular customer meetings, project progress summary"
+      },
+      "experience2":{
+        "companiename":"Enovea",
+        "dates":"July 2017 - July 2019",
+        "job":"Studies and development engineer",
+        "description":"backend development, frontend development, SQL, Spring Boot, Angular, Agile, maintenance, customer needs study, customer needs harvest, Finance, Mifid2"
+      }
+    },
+    "educations":{
+      "title":"Studies",
+      "education1":{
+        "educationname":"Ecole nationale d'ingénieurs de Brest - ENIB",
+        "dates":"September 1013 - Décember 2016",
+        "studies":"General engineer with IT option",
+        "description":"web applications, artificial intelligence, 3D environment, internship in web application development and electronic document management"
+      }
+    }
+  },
+  "rightside":{
+    "workingenvironment-title":"Working environment",
+    "personalskills-title":"Personal skills",
+    "personalskills":{
+      "skill1":"Team working",
+      "skill2":"Happiness",
+      "skill3":"Available to others",
+      "skill4":"English speaking"
+    },
+    "interests-title":"Interests",
+    "interests":{
+      "interest1":"Travel",
+      "interest2":"Video games",
+      "interest3":"Sport",
+      "interest4":"and others.."
+    }
+  }
+}

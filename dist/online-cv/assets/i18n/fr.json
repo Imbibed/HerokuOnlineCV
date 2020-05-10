@@ -1,0 +1,58 @@
+{
+  "header": {
+    "firstname":"Jules",
+    "lastname":"Vandewiele",
+    "job": "INGENIEUR LOGICIEL",
+    "phonenumber":"** ** ** ** **",
+    "location":"Rouen",
+    "mail":"jules.vandewiele.pro@smash.com",
+    "linkedin":"www.linkedin.com/in/jules-vandewiele"
+  },
+  "content":{
+    "aboutme":{
+      "title":"A propos de moi",
+      "content":"Développeur fullstack, j'aime utilisé mes compétences pour simpifier et améliorer la vie professionel des entreprises, c'est pourquoi mes applications correspondront à votre besoin. Je n'ai pas peur de me lancer dans quelque chose de nouveau, l'idée est de continuer à apprendre afin de toujours chercher à me surpasser."
+    },
+    "experiences":{
+      "title":"Expériences",
+      "experience1":{
+        "companiename":"Freelance",
+        "dates":"Février 2020 - Aujourd'hui",
+        "job":"Développeur indépendant",
+        "description":"écoute et conseil du besoin client, rendez-vous client régulier, résumé d'avancement du projet"
+      },
+      "experience2":{
+        "companiename":"Enovea",
+        "dates":"Juillet 2017 - Juillet 2019",
+        "job":"Ingénieur d'études et développements",
+        "description":"développement backend, développement frontend, SQL, Spring Boot, Angular, Agile, maintenance, étude du besoins client, récolte du besoin client, Finance, Mifid2"
+      }
+    },
+    "educations":{
+      "title":"Etudes",
+      "education1":{
+        "educationname":"Ecole nationale d'ingénieurs de Brest - ENIB",
+        "dates":"Septembre 1013 - Décembre 2016",
+        "studies":"Ingénieur généraliste option informatique",
+        "description":"applications web, intelligence artificiel, environnement 3D, stages développement d'application web et gestion électronique de document"
+      }
+    }
+  },
+  "rightside":{
+    "workingenvironment-title":"Environnement de travail",
+    "personalskills-title":"Compétences personnelles",
+    "personalskills":{
+      "skill1":"Travail en équipe",
+      "skill2":"Bonne humeur",
+      "skill3":"Disponible, à l'écoute",
+      "skill4":"Communication en anglais"
+    },
+    "interests-title":"Centre d'intérêts",
+    "interests":{
+      "interest1":"Voyages",
+      "interest2":"Jeux vidéo",
+      "interest3":"Sport",
+      "interest4":"Autres.."
+    }
+  }
+}
