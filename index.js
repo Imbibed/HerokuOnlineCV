@@ -1,10 +1,18 @@
 var express = require("express");
+var fs = require("fs");
 
 var app = express();
 
 const PORT = process.env.PORT || 5000
 
 const HEROKU_LINK = "";
+
+app.use("/", (req, res, next) => {
+    fs.stat(path.join(__dirname, "dist"), (err, stats) => {
+        if(err) res.end("Error, no dist folder detected.");
+        else next();
+    });
+});
 
 app.use("/", express.static(path.join(__dirname, "dist")));
 
