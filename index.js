@@ -16,12 +16,12 @@ const HEROKU_LINK = "";
     }
 })*/
 
-app.use("favicon", (req, res, next) => {
+/*app.use("favicon", (req, res, next) => {
     console.log("favicon");
-}),
+}),*/
 
 app.use("/", (req, res, next) => {
-    console.log("Request url: " + req.url);
+    //console.log("Request url: " + req.url);
     fs.stat(path.join(path.join(__dirname, "dist"), "online-cv"), (err, stats) => {
         if(err) res.status(500).end("Error, no dist folder detected.");
         else next();
