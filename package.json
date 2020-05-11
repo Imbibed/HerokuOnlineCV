@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "cd ./frontend && npm install && ng build"
+    "build": "cd ./frontend && npm install && npm run build"
   },
   "repository": {
     "type": "git",
