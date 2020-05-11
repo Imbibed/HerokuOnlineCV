@@ -8,9 +8,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "echo build",
-    "heroku-prebuild": "echo heroku-prebuild",
-    "heroku-postbuild": "echo heroku-postbuild"
+    "build": "cd ./frontend && ng build"
   },
   "repository": {
     "type": "git",
