@@ -8,8 +8,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "cd ./frontend && npm install && npm run build",
-    "prebuild": "npm install @angular/cli @angular/compiler-cli --save-dev"
+    "build": "cd ./frontend && npm install && npm run build"
   },
   "repository": {
     "type": "git",
