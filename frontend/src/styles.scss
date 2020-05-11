@@ -1,0 +1,163 @@
+/* You can add global styles to this file, and also import other style files */
+
+$app-font-family:'Roboto', sans-serif;
+
+//primary color: Green
+$green-background:#76C676;
+$green1:#00E200;
+$green2:#12C012;
+$green3:#298229;
+$green4:#264C26;
+$green5:#192419;
+
+//Complement color: Red
+$red1:#FF0000;
+$red2:#F01616;
+$red3:#A23333;
+$red4:#5E2F2F;
+$red5:#2D1F1F;
+
+//true theme color
+$dark-primary-color:#1976D2;
+$light-primary-color:#BBDEFB;
+$primary-color:#2196F3;
+$text-icons:#FFF;
+$accent-color:#8BC34A;
+$primary-text:#212121;
+$secondary-text:#757575;
+$divider-color:#BDBDBD;
+
+body{
+    margin:0px;
+    background-color:$text-icons;
+    //overflow-y:hidden;
+    //overflow-x:hidden;
+}
+
+@media(orientation: landscape){
+    .myapp{
+        display:grid;
+        grid-template-columns: 20% auto 25%;
+        grid-template-rows: 130px auto 50px;
+        width:100vw;
+        height:100vh;
+        //background-color: purple;
+        //grid-gap:3px;
+        column-gap: 5px;
+        
+    }
+
+    app-header-component{
+        //background-color: blue;
+        //height: 15vh;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        transition:0.5s;
+    }
+    
+    app-aside-left{
+        //background-color: red;
+        //background-image: url("C:/MyFiles/dev/NodeJS/curriculumvitae/frontend/src/assets/img/maphoto.png");
+        //background-position: -300px 0px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        transition:0.5s;
+    }
+    
+    app-main-content{
+        //background-color: white;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        transition:0.5s;
+    }
+    
+    app-aside-right{
+        //background-color: white;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        transition:0.5s;
+    }
+}
+
+@media(orientation: portrait){
+    .myapp{
+        display:grid;
+        grid-template-columns: 30% auto 25%;
+        grid-template-rows: 15% auto 5%;
+        width:100vw;
+        height:100vh;
+        //background-color: purple;
+        grid-gap:3px;
+    }
+
+    app-header-component{
+        //background-color: blue;
+        opacity:0;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        transition:0.5s;
+        z-index:-1;
+    }
+    
+    app-aside-left{
+        //background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        transition:0.5s;
+    }
+    
+    app-main-content{
+        //background-color: green;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        transition:0.5s;
+    }
+    
+    app-aside-right{
+        opacity:0;
+        //background-color: pink;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        transition:0.5s;
+    }
+}
+
+//Responsive stuff
+
+/*
+@media(orientation: landscape){
+
+}
+
+@media(orientation: portrait){
+
+}
+*/
+
+/*
+// Medium screen (md)
+@media(min-width:768px) and (max-width:1388px){ 
+    
+}
+
+// Small screen (ss)
+@media(max-width:767px){    
+    
+}
+*/

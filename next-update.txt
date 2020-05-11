@@ -1,0 +1,23 @@
+
+-le message de l'intro est très bien, mais fait peut-être un peu trop consensuel, faut pas hésiter à être en mode mec qui en fait presque trop "le fait de perpétuellement apprendre me stimule énormément, je cherche à toujours me surpasser" un truc comme ça
+
+-ton activité de Freelance, on a des infos sur tes liens aux clients, mais pas sur tes projets, sur ce que tu produis
+-Enovea très bien, c'est technique et précis, je te conseillerais d'ajouter une ou deux phrases sur l'environnemetn de travail (ex: combien de personne dans ton équipe, dans l'entreprise, environnement plutôt start up ou grande entreprise? tes responsabilité dans les projets?
+-ton école: niquel, juste un crac sur l'année de début des études
+
+-j'aime bien le côté droit du CV, je retirerais "Autres.." dans tes hobbies, et peut-être mettre un ou deux trucs concrets, type quel voyage récent que t'as aimé? ou type de jeux vidéo? quel sport? Je me souviens d'une meuf qui a mis qu'elle adorait Pokémon dans un CV que j'ai vu, ça m'a marqué, je me suis direct dit j'ai envie de lui parler elle (même si le sujet viendra pas forcément avec le recruteur, si t'as un hobby partagé avec lui ça peut le "toucher" lui donner envie de te parler)
+
+sinon si tu peux mettre une légende sous ta photo ça peut être nice, en mode (je dis nimp "Récent voyage en Grèce, 2019)
+ça nous permet de t'imaginer en action, en mode "ha ouais il est allé là bas c'est cool", et idem ça peut parler à un recruteur qui checkerai ton cv "ha nice il est allé là-bas, moi aussi! envie de lui parler à ce nice dude"
+
+- Orthographe: 
+	-intro: professionnelle (deux n)
+- Activité freelance
+	-détails sur la production
+- Activité Enovea
+	-environnement de travail: taille de l'équipe, environnement plutot start up
+- Hobbies
+	-retirer "Autres..."
+	-détails sur les hobbies
+- légende sous la photo
+

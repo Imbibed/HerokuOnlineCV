@@ -1,0 +1,53 @@
+<div class="main-content-container">
+    <article class="objective">
+        <div class="title">
+            <div class="icon">
+              <i class="fas fa-crosshairs"></i>
+            </div>
+            <div class="title-name">{{'content.aboutme.title' | translate}}</div><!-- {{ '' | translate }} -->
+            <select #langSelect (change)="translate.use(langSelect.value)">
+              <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang | uppercase }}</option>
+            </select>
+        </div>
+        <div class="objective-content">
+            <p>{{'content.aboutme.content' | translate}}</p>
+        </div>
+    </article>
+    <article class="experiences">
+        <div class="title">
+          <div class="icon">
+            <i class="fas fa-book-open"></i>
+          </div>
+          <div class="title-name">{{'content.experiences.title' | translate}}</div>
+        </div>
+        <div class="experiences-content">
+            <div class="experience">
+                <p class="companie"><b>{{'content.experiences.experience1.companiename' | translate}}</b></p><p class="date">{{'content.experiences.experience1.dates' | translate}}</p>
+                <p class="job-name"><b>{{'content.experiences.experience1.job' | translate}}</b></p>
+                <p class="job-description">{{'content.experiences.experience1.description' | translate}}</p>
+            </div>
+        </div>
+        <div class="experiences-content">
+            <div class="experience">
+                <p class="companie"><b>{{ 'content.experiences.experience2.companiename' | translate }}</b></p><p class="date">{{ 'content.experiences.experience2.dates' | translate }}</p>
+                <p class="job-name"><b>{{ 'content.experiences.experience2.job' | translate }}</b></p>
+                <p class="job-description">{{ 'content.experiences.experience2.description' | translate }}</p>
+            </div>
+        </div>
+    </article>
+    <article class="education">
+        <div class="title">
+          <div class="icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="title-name">{{ 'content.educations.title' | translate }}</div>
+        </div>
+        <div class="education-content">
+            <div class="experience">
+                <p class="companie"><b>{{ 'content.educations.education1.educationname' | translate }}</b></p><p class="date">{{ 'content.educations.education1.dates' | translate }}</p>
+                <p class="job-name"><b>{{ 'content.educations.education1.studies' | translate }}</b></p>
+                <p class="job-description">{{ 'content.educations.education1.description' | translate }}</p>
+            </div>
+        </div>
+    </article>
+</div>

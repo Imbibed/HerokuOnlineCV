@@ -1,0 +1,14 @@
+@import '../../../styles.scss';
+
+.aside-left-container{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    height:100%;
+    background-color:white;
+    font-family:$app-font-family;
+    border-right: 1px solid $divider-color;
+}
+
+@import './aside-left-landscape.component.scss';  /*Responsive landscape mode*/
+@import './aside-left-portrait.component.scss'; /*Responsive portrait mode*/
