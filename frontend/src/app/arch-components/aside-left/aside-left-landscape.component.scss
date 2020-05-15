@@ -7,11 +7,17 @@
     .ma-photo-container{
       width:100%;
       height:inherit;
-      background:url("../../../assets/img/maphoto2-resized.png");
+      background:url("../../../assets/img/grece2019-resized.png");
       background-size:cover;
       //background-attachment:fixed;
       background-position:center;
       transition:0.5s;
+      display:flex;
+      align-items:flex-end;
+
+      p{
+        margin:0px;
+      }
     }
 
   }
@@ -25,7 +31,7 @@
     .ma-photo-container{
       width:100%;
       height:inherit;
-      background:url("../../../assets/img/maphoto2-resized.png");
+      background:url("../../../assets/img/grece2019-resized.png");
       background-size:cover;
       //background-attachment:fixed;
       background-position:center;
@@ -44,7 +50,7 @@
     .ma-photo-container{
       width:100%;
       height:inherit;
-      background:url("../../../assets/img/maphoto2-resized.png");
+      background:url("../../../assets/img/grece2019-resized.png");
       background-size:cover;
       //background-attachment:fixed;
       background-position:center;

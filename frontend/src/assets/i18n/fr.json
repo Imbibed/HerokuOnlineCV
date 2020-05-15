@@ -11,7 +11,7 @@
   "content":{
     "aboutme":{
       "title":"A propos de moi",
-      "content":"Développeur fullstack, j'aime utiliser mes compétences pour simpifier et améliorer la vie professionelle des entreprises, c'est pourquoi mes applications correspondront à vos besoins. Je n'ai pas peur de me lancer dans quelque chose de nouveau, l'idée est de continuer à apprendre afin de toujours chercher à me surpasser."
+      "content":"Développeur fullstack, j'aime utiliser mes compétences pour simpifier et améliorer la vie professionnelle des entreprises, c'est pourquoi mes applications correspondront à vos besoins. Je n'ai pas peur de me lancer dans quelque chose de nouveau, l'idée est de continuer à apprendre afin de toujours chercher à me surpasser."
     },
     "experiences":{
       "title":"Expériences",
@@ -19,13 +19,14 @@
         "companiename":"Freelance",
         "dates":"Février 2020 - Aujourd'hui",
         "job":"Développeur indépendant",
-        "description":"écoute et conseil du besoin client, rendez-vous client régulier, résumé d'avancement du projet"
+        "environment":"Travail depuis chez moi",
+        "description":"écoute et conseil du besoin client, résumé d'avancement du projet, expertise d'application web, développement application portfolio photographie"
       },
       "experience2":{
         "companiename":"Enovea",
         "dates":"Juillet 2017 - Juillet 2019",
         "job":"Ingénieur d'études et développements",
-        "description":"développement backend, développement frontend, SQL, Spring Boot, Angular, Agile, maintenance, étude du besoins client, récolte du besoin client, Finance, Mifid2"
+        "description":"équipe de 3 à 6 personnes, développement backend, développement frontend, SQL, Spring Boot, Angular, Agile, maintenance, étude du besoins client, récolte du besoin client, Finance, Mifid2"
       }
     },
     "educations":{
@@ -51,8 +52,10 @@
     "interests":{
       "interest1":"Voyages",
       "interest2":"Jeux vidéo",
-      "interest3":"Sport",
-      "interest4":"Autres.."
+      "interest3":"Sport"
     }
+  },
+  "leftside":{
+    "legend":"Grèce, crète, 2019"
   }
 }

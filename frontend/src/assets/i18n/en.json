@@ -19,12 +19,14 @@
         "companiename":"Freelance",
         "dates":"February 2020 - Today",
         "job":"Freelance software programmer",
-        "description":"listening and advising on customer needs, regular customer meetings, project progress summary"
+        "environment":"",
+        "description":"listening and advising on customer needs, project progress summary, web application expertise, photography portfolio application development"
       },
       "experience2":{
         "companiename":"Enovea",
         "dates":"July 2017 - July 2019",
         "job":"Studies and development engineer",
+        "environment":"",
         "description":"backend development, frontend development, SQL, Spring Boot, Angular, Agile, maintenance, customer needs study, customer needs harvest, Finance, Mifid2"
       }
     },
@@ -51,8 +53,10 @@
     "interests":{
       "interest1":"Travel",
       "interest2":"Video games",
-      "interest3":"Sport",
-      "interest4":"and others.."
+      "interest3":"Sport"
     }
+  },
+  "leftside":{
+    "legend":"Greece, Crete, 2019"
   }
 }
