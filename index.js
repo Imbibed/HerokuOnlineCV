@@ -18,6 +18,11 @@ app.use("/", (req, res, next) => {
 
 app.use("/", express.static(path.join(path.join(__dirname, "dist"), "online-cv")));
 
+app.get("/sitemap", (req, res) => {
+    console.log("Get sitemap");
+    res.sendFile(path.join(__dirname, "sitemap.xml"));
+})
+
 app.listen(PORT, () => {
     console.log("Server started on port " + PORT);
 });
